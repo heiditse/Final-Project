@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    top: 0;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 30px;
+    border-bottom: 2px solid #A9A9A9;
+}
+
+.menu a {
+    color: black;
+    padding: 14px 16px;
+    font-family: Bebas Neue,Helvetica,sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    transition: background-color 0.3s; 
+}
+
+.menu a:hover {
+  background-color: #ab82c5;
+}
+
+.two-columns-container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.image {
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
+    margin-bottom: 10px;
+}
+
+ .container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.outerContainer {
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    width: 30%;
+}
+
+.statContainer {
+    width: 900px;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*    gap: 4em;*/
+    border-radius: 4em;
+    height: 300px;
+}
+
+.statCallout {
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Bebas Neue;
+    margin: 30px;
+}
+
+.learn-more-btn {
+    background-color: #7D3C98 ;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+
+.resources {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+
+}
+
+
+h1 {
+    font-family: Bebas Neue,Helvetica,sans-serif;
+    color: #8E44AD;
+    font-size: 24px;
+}
+
+h2 {
+    font-family: Bebas Neue,Helvetica,sans-serif;
+    color: #8E44AD;
+    font-size: 36px;
+    margin-top: 5px;
+}
+
+h4 {
+    font-family: Bebas Neue,Helvetica,sans-serif;
+    color: #8E44AD;
+    font-size: 35px;
+    margin:50px;
+}
+
+h5 {
+    font-family: Bebas Neue,Helvetica,sans-serif;
+    color: #8E44AD;
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+}
+
+.resources1 {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.intro {
+    font-family: Bebas Neue,Helvetica,sans-serif;
+    text-align: left;
+    font-size: 24px;
+    padding: 10px;
+    margin: 40px;
+}
+
+.container {
+    background-color: #ab82c5;
+    padding: 50px;
+    border-radius: 25px;
+    display: flex;
+    width: 85%;
+    margin: 20px auto;
+    justify-content: center; 
+    align-items: center;
+}
+
+.testimonial {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+}
+
+.video-and-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 100%;
+    margin: 50px;
+}
+
+.video-container {
+    max-width: 50%;
+}
+
+.intro1 {
+    font-family: Oswald;
+    text-align: left;
+    font-size: 18px;
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.img4 {
+    width: 700px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro2 {
+    font-family: Bebas Neue, Helvetica, sans-serif;
+    color: #8E44AD;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.learn-more {
+    background-color: #7D3C98 ;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.gray {
+    background-color: #D5D8DC;
+    padding: 50px;
+    border-radius: 25px;
+    display: flex;
+    width: 85%;
+    margin: 20px auto;
+    justify-content: center; 
+    align-items: center; 
+;
+}
